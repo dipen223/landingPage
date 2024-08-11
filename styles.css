@@ -33,5 +33,61 @@ header .logo{
     text-decoration: none;
     color:#e5e7eb;
     font-size: 18px;
+    font-weight:600;
 
+}
+
+.hero__section{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding:70px 0;
+}
+
+.hero__content{
+    width:65%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+
+.hero__content-left{
+    max-width:500px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+
+}
+
+.hero__text {
+   font-weight:900;
+   color:#f9faf8;
+   font-size:48px;
+}
+
+.hero__secondary{
+    font-size:18px;
+    font-weight:500;
+}
+.sign-up{
+    flex-grow: 0;
+    align-self: flex-start;
+    background-color: #3882f6;
+    border:none;
+    padding:.8em 1.3em;
+    border-radius:5px;
+    color:#e5e7eb;
+    font-weight: bold;
+}
+
+.sign-up:hover{
+    opacity:.5;
+    cursor: pointer;
+}
+
+.hero__content-right img{
+    max-width:100%;
+    width:500px;
+    border-radius: 10%;
 }
