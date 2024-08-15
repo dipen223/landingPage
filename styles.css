@@ -127,3 +127,31 @@ header .logo{
     gap:12px;
 }
 
+.goals__section{
+    background-color: #e5e7eb;
+    padding:50px 0;
+    margin-top:12px;
+}
+
+.goals__container{
+    width:50%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:25px;
+    font-weight: light;
+    
+}
+.goals__container .goal{
+    font-style: italic;
+
+}
+
+
+.goals__container .author{
+    align-self: flex-end  ;
+    font-weight: 900;
+}
+
