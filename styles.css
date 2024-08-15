@@ -114,9 +114,9 @@ header .logo{
     gap:40px;
 }
 .content{
-    width:90px;
-    height:90px;
-    border:3px solid blue;
+    width: 100px;
+    height:100px;
+    border:3px solid #3882f6;
     border-radius:5px;
 }
 
