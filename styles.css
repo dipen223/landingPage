@@ -192,3 +192,15 @@ header .logo{
     border-radius:5px;
     font-weight: bold;
 }
+
+footer{
+    background-color: #1f2937;
+    padding:15px 0;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+footer p {
+    color:#e5e7eb;
+    font-weight: 600;
+}
